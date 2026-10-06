@@ -1,0 +1,33 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+
+# Database
+*.db
+*.sqlite
+
+# Uploads (user-generated content)
+backend/uploads/*
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+.output/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+.vercel
